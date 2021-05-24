@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <SideBar :marks="marks" />
+    <div>yoooo</div>
   </div>
 </template>
 
@@ -84,8 +85,12 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 body {
   margin: 0;
+}
+#app {
+  display: flex;
+  background-color: aquamarine;
 }
 </style>
